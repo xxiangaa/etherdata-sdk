@@ -61,8 +61,4 @@ from etherdata_sdk.json_rpc import JsonRpcMethods
 #用公网结点测试
 client = JsonRpcMethods("https://rpc.etdchain.net")
 client.send_raw_transaction(signed.raw_transaction.hex())
-
-
-
-
 ```
